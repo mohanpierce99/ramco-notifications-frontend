@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: regular;
+  src: url("./assets/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: bold;
+  src: url("./assets/fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+  font-family: light;
+  src: url("./assets/fonts/Merriweather/Merriweather-Light.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: regular;
+}

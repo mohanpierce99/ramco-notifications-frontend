@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.bold{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.extend{
+  width: 100%;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.semi-bold{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size:21px
+}
+
+html,body{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
